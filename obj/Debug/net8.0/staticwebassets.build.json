@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "84TYJce2wJ5hcdadUZ6Eqk/l+IuNxwhyew9NJvxUgFs=",
+  "Source": "MyDockerEfProject",
+  "BasePath": "_content/MyDockerEfProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
