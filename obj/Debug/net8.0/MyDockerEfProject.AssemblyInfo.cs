@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyDockerEfProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+079d3b09d4b6659ffb3b56bd88afab8ada59be17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d98cb80c7a9388f3ca4bdc81296edd8800fb048")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyDockerEfProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyDockerEfProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

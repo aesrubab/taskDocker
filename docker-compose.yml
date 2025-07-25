@@ -9,12 +9,19 @@ services:
     ports:
       - "1433:1433"
 
+  redis:
+    image: redis:7.0
+    ports:
+      - "6379:6379"
+
   webapi:
     build: .
     depends_on:
       - sqlserver
+      - redis
     environment:
       - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=MyDockerEfDb;User Id=sa;Password=Your_password123;
+      - ConnectionStrings__RedisConnection=redis:6379
     ports:
       - "5000:80"
     command: bash -c "dotnet ef database update && dotnet MyDockerEfProject.dll"
